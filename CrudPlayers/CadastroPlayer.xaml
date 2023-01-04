@@ -1,0 +1,17 @@
+﻿<Window x:Class="CrudPlayers.CadastroPlayer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CrudPlayers"
+        mc:Ignorable="d"
+        Title="CadastroPlayer" Height="233" Width="450">
+    <Grid Margin="0,0,10,9">
+        <TextBox x:Name="txtNick" HorizontalAlignment="Left" Margin="61,71,0,0" TextWrapping="Wrap" Text="{Binding nickname}" VerticalAlignment="Top" Width="339"/>
+        <TextBox x:Name="txtFunction" HorizontalAlignment="Left" Margin="61,137,0,0" TextWrapping="Wrap" Text="{Binding function}" VerticalAlignment="Top" Width="339"/>
+        <Label  FontSize="14" Content="Nickname" HorizontalAlignment="Left" Margin="55,40,0,0" VerticalAlignment="Top" Width="72"/>
+        <Label  FontSize="14" Content="Função" HorizontalAlignment="Left" Margin="55,107,0,0" VerticalAlignment="Top"/>
+        <Button Content="Salvar" HorizontalAlignment="Left" Margin="339,178,0,0" VerticalAlignment="Top" Width="61" Click="bnt_Salvar"/>
+
+    </Grid>
+</Window>
